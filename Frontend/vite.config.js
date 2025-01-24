@@ -4,10 +4,12 @@
 //     outDir: 'dist',
 //   },
 // };
+import { defineConfig } from 'vite';
+
 export default defineConfig({
+  // Your configuration here
   build: {
-    outDir: 'dist',
-    minify: true,
+    outDir: 'dist', // Example output directory
   },
-  // other Vite configurations
 });
+
